@@ -11,7 +11,7 @@ const fs = require("fs");
     }
 }
 
-var minutes = 1, the_interval = minutes * 60 * 1000;
+var minutes = 10, the_interval = minutes * 60 * 1000;
 setInterval(function() {
     checkFileExist();
   // do your stuff here
